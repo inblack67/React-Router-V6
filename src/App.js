@@ -58,10 +58,9 @@ function App() {
             <Route path='/' element={<Gallery images={images} />} />
             <Route path=':slug' element={<SingleImage images={images} />} />
           </Route>
-
+          
           <Route path='about' element={<About />} />
           <Route path='*' element={<NotFound />}/>
-
         </Routes>
       </Fragment>
     </Router>
